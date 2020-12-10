@@ -1,0 +1,81 @@
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 45%;
+    margin: 100px auto;
+  }
+  
+  .container .badWords {
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+  }
+  
+  .container #newBadWords {
+    font-size: 35px;
+    color: red;
+  }
+  
+  .container .addBadWords {
+    padding: 2px 0 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .container .addBadWords form {
+    width: 70%;
+    margin-right: 5px;
+  }
+  
+  .container .addBadWords form input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+  }
+  
+  .container .addBadWords button {
+    width: 13%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .container .addBadWords #add {
+    background-color: #afaf27;
+  }
+  
+  .container .addBadWords #reset {
+    background-color: red;
+  }
+  
+  .container #checkCenzor {
+    outline: none;
+  }
+  .red{
+    border: 2px solid rgb(255, 0, 0);
+  }
+  .container #cenzor {
+    margin-top: 10px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  /*# sourceMappingURL=style.css.map */

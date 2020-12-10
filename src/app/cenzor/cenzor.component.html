@@ -1,0 +1,19 @@
+<div class="container">
+
+  <div class="badWords">
+    <span>Bad Words: </span><span id="newBadWords" *ngFor="let el of badWordsArr">{{el}}: </span>
+  </div>
+
+  <div class="addBadWords">
+
+    <form name="form">
+      <input name="badWords" [(ngModel)]="badWords" [class]="border" type="text" >
+    </form>
+
+    <button (click)="addWords()" id="add">Add</button>
+    <button (click)="formReset()" id="reset">Reset</button>
+  </div>
+
+  <textarea name="checkCenzor" id="checkCenzor"cols="30" [(ngModel)]="areaValue" rows="10"></textarea>
+  <button (click)="cenzor()" id="cenzor">Cenzor</button>
+</div>

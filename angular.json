@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "hw10Romanov"
+  "defaultProject": "hw10Romanov",
+  "cli": {
+    "analytics": "e8d09074-908f-46cf-9a22-67b92d7b98c3"
+  }
 }
